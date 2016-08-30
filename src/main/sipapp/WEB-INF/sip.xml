@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sip-app>
+	<!-- Archetype Created SIP Application -->
+	<app-name>com.inted.as.messaging.Main</app-name>
+	
+	<servlet-selection>
+		<main-servlet>
+			MainServlet
+		</main-servlet>
+	</servlet-selection>
+
+	<servlet>
+		<servlet-name>MainServlet</servlet-name>
+		<display-name>MainServlet</display-name>
+		<description>Telco Messaging Front End Service</description>
+		<servlet-class>
+			com.inted.as.messaging.Main
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>	
+</sip-app>
